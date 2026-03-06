@@ -1,5 +1,5 @@
 import axios, { AxiosError, type InternalAxiosRequestConfig } from 'axios';
-import { API_BASE_URL } from '../utils/Constants';
+import { API_BASE_URL } from '../utils/constant';
 import { getAccessToken, getRefreshToken, setTokens, clearTokens } from '../utils/storage';
 
 interface QueueItem {

@@ -7,7 +7,7 @@ import { LoadingSpinner } from '../components/LoadingSpinner';
 import { StatusBadge } from '../components/StatusBadge';
 import { Modal } from '../components/Modal';
 import { formatDateTime, formatNumber } from '../utils/formatters';
-import { USER_LEVEL_LABELS } from '../utils/Constants';
+import { USER_LEVEL_LABELS } from '../utils/constant';
 import type { AdminUser } from '../utils/types';
 
 export default function UserDetailPage() {

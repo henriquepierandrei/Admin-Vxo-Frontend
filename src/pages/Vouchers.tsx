@@ -8,7 +8,7 @@ import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { Modal } from '../components/Modal';
 import { formatDateTime } from '../utils/formatters';
-import { VOUCHER_TYPE_LABELS } from '../utils/Constants';
+import { VOUCHER_TYPE_LABELS } from '../utils/constant';
 import type { VoucherResponse, PageResponse, VoucherType, VoucherGenerateRequest } from '../utils/types';
 
 export default function VouchersPage() {

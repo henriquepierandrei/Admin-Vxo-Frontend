@@ -8,7 +8,7 @@ import { EmptyState } from '../components/EmptyState';
 import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { formatDateTime } from '../utils/formatters';
-import { USER_LEVEL_LABELS } from '../utils/Constants';
+import { USER_LEVEL_LABELS } from '../utils/constant';
 import type { AdminUser, PageResponse } from '../utils/types';
 
 export default function UsersPage() {

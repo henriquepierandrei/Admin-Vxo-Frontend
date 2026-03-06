@@ -7,7 +7,7 @@ import { EmptyState } from '../components/EmptyState';
 import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { Modal } from '../components/Modal';
-import { ITEM_TYPE_LABELS, ITEM_RARITY_LABELS, RARITY_COLORS } from '../utils/Constants';
+import { ITEM_TYPE_LABELS, ITEM_RARITY_LABELS, RARITY_COLORS } from '../utils/constant';
 import type { AdminItem, PageResponse, ItemStoreRequest, ItemType, ItemRarity } from '../utils/types';
 
 const emptyForm: ItemStoreRequest = {

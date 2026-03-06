@@ -6,7 +6,7 @@ import { EmptyState } from '../components/EmptyState';
 import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { formatDateTime } from '../utils/formatters';
-import { LOG_TYPE_LABELS } from '../utils/Constants';
+import { LOG_TYPE_LABELS } from '../utils/constant';
 import type { AdminUserLog, PageResponse, UserLogType } from '../utils/types';
 
 export default function UserLogsPage() {

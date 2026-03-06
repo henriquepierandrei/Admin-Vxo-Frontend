@@ -6,7 +6,7 @@ import { EmptyState } from '../components/EmptyState';
 import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { formatDateTime, formatCurrency } from '../utils/formatters';
-import { PRODUCT_TYPE_LABELS, PAYMENT_STATUS_LABELS } from '../utils/Constants';
+import { PRODUCT_TYPE_LABELS, PAYMENT_STATUS_LABELS } from '../utils/constant';
 import type { AdminPayment, PageResponse, ProductType } from '../utils/types';
 
 const statusVariant = (s: string): 'success' | 'warning' | 'danger' | 'default' => {

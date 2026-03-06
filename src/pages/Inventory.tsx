@@ -6,7 +6,7 @@ import { EmptyState } from '../components/EmptyState';
 import { Pagination } from '../components/Pagination';
 import { StatusBadge } from '../components/StatusBadge';
 import { formatDateTime } from '../utils/formatters';
-import { ITEM_TYPE_LABELS, ITEM_RARITY_LABELS, RARITY_COLORS } from '../utils/Constants';
+import { ITEM_TYPE_LABELS, ITEM_RARITY_LABELS, RARITY_COLORS } from '../utils/constant';
 import type { AdminUserItem, PageResponse, ItemType, ItemRarity } from '../utils/types';
 
 export default function InventoryPage() {
